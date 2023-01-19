@@ -5,10 +5,6 @@ use Sdpgs\Gyazo\GyazoClient;
 use Sdpgs\Gyazo\GyazoException;
 use Sdpgs\GyazoLaravel\Providers\SdpgsGyazoServiceProvider;
 
-test('example', function () {
-    expect(true)->toBeTrue();
-});
-
 it('binds the client on the container', function () {
     $app = app();
 
