@@ -8,9 +8,12 @@
             "Sdpgs\\GyazoLaravel\\": "src/"
         }
     },
+    "homepage": "https://sunday-programmers.com",
     "authors": [
         {
-            "name": "tanakaphper"
+            "name": "tanakaphper",
+            "email": "tanakaphper@gmail.com",
+            "homepage": "https://twitter.com/sunDprogrammers"
         }
     ],
     "require": {
@@ -19,7 +22,8 @@
         "laravel/framework": "^9.48"
     },
     "require-dev": {
-        "pestphp/pest": "^1.22"
+        "pestphp/pest": "^1.22",
+        "phpstan/phpstan": "^1.9"
     },
     "scripts": {
         "pest": "./vendor/bin/pest"
