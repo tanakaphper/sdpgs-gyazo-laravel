@@ -1,0 +1,39 @@
+{
+    "name": "sdpgs/gyazo-laravel",
+    "description": "sdpgs/gyazo-laravel derives from sdpgs/gyazo, optimized to Laravel app",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sdpgs\\GyazoLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tanakaphper"
+        }
+    ],
+    "require": {
+        "php": "^8.1.0",
+        "sdpgs/gyazo": "^1.0",
+        "laravel/framework": "^9.48"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "scripts": {
+        "pest": "./vendor/bin/pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sdpgs\\GyazoLaravel\\Providers\\SdpgsGyazoServiceProvider"
+            ]
+        }
+    }
+}
