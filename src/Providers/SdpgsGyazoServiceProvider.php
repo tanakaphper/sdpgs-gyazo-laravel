@@ -34,7 +34,7 @@ class SdpgsGyazoServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../../config/gyazo.php' => config_path('gyazo.php'),
-        ]);
+        ], 'sdpgs-gyazo-config');
     }
 
     /**
